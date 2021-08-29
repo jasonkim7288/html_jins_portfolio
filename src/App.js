@@ -10,14 +10,14 @@ function App() {
           Hi, I'm Jin 👋🏼
         </h1>
         <h2 className="text-center pt-5 mb-4">Commercial Projects</h2>
-        <div className="row row-cols-1 row-cols-md-2 g-5">
+        <div className="row row-cols-1 row-cols-md-1 g-5">
           <div className="col">
             <h4 className="text-center mb-5">Communic8</h4>
             <div className="card">
-              <div className="row">
-                <img src="/images/Communic8/dashboard.png" className="col" alt="alert" />
-                <img src="/images/Communic8/mediaLib.png" className="col" alt="alert" />
-                <img src="/images/Communic8/alerts.png" className="col" alt="alert" />
+              <div className="row justify-content-center">
+                <img src="/images/Communic8/dashboard.png" className="col-3" alt="alert" />
+                <img src="/images/Communic8/mediaLib.png" className="col-3" alt="alert" />
+                <img src="/images/Communic8/alerts.png" className="col-3" alt="alert" />
               </div>
               <div className="card-body mt-4">
                 <p className="card-text">Communic8 is an employee engagement platform built on Flutter. My role is developing a media library feature using a bunch of RESTful APIs. As a part of the work, I imported and worked on several open-source iOS plugins, and contributed to their codebase.</p>
@@ -30,7 +30,7 @@ function App() {
           <div className="col">
             <h4 className="text-center mb-5">iPECS UCS</h4>
             <div className="card">
-              <div className="row">
+              <div className="row justify-content-center">
               <img src="/images/iPECSUCS/presence.png" className="col" alt="alert" />
                 <img src="/images/iPECSUCS/messaging.jpeg" className="col" alt="alert" />
                 <img src="/images/iPECSUCS/call.jpeg" className="col" alt="alert" />
@@ -46,7 +46,7 @@ function App() {
           <div className="col">
             <h4 className="text-center mb-5">Line</h4>
             <div className="card">
-              <div className="row">
+              <div className="row justify-content-center">
                 <div className="col"></div>
                 <img src="/images/Line/timeline.png" className="col" alt="alert" />
                 <div className="col"></div>
@@ -62,16 +62,16 @@ function App() {
         </div>
 
         <h2 className="text-center pt-5 mb-4">Personal Projects</h2>
-        <div className="row row-cols-1 row-cols-md-2 g-5">
+        <div className="row row-cols-1 row-cols-md-1 g-5">
           <div className="col">
             <h4 className="text-center mb-5">URL Album</h4>
             <div className="card">
-              <div className="row">
+              <div className="row justify-content-center">
                 <img src="/images/URLAlbum/share.png" className="col" alt="alert" />
                 <img src="/images/URLAlbum/grid.png" className="col" alt="alert" />
                 <img src="/images/URLAlbum/smallgrid.png" className="col" alt="alert" />
               </div>
-              <div className="row">
+              <div className="row justify-content-center">
                 <img src="/images/URLAlbum/reviews.png" id="review" alt="alert" />
               </div>
               <div className="card-body mt-4">
@@ -87,7 +87,7 @@ function App() {
           <div className="col">
             <h4 className="text-center mb-5">Foodie</h4>
             <div className="card">
-              <div className="row">
+              <div className="row justify-content-center">
               <img src="/images/Foodie/foodie.gif" className="col" alt="alert" />
                 <img src="/images/Foodie/detail.png" className="col" alt="alert" />
                 <img src="/images/Foodie/review.png" className="col" alt="alert" />
@@ -95,24 +95,18 @@ function App() {
               <div className="card-body mt-4">
                 <p className="card-text">A food app providing restaurant information about price, location, photos, reviews, and more. I experimented with building modern app layouts, Yelp Rest API, and some unit testings in this personal project.</p>
                 <p>Technologies used: Swift, UIKit, MapKit, Compositional Layout.</p>
-                <a href="https://apps.apple.com/au/app/ipecs-ucs-6/id1239680008" target="_blank" rel="noreferrer">
-                  <img src="/images/appstorebadge.png" alt="app store"/>
-                </a>
               </div>
             </div>
           </div>
           <div className="col">
             <h4 className="text-center mb-5">IELTSQ</h4>
             <div className="card">
-              <div className="row justify-content-evenly">
+              <div className="row justify-content-center">
                 <img src="/images/IELTSQ/ieltsq.gif" className="col" alt="alert" />
                 <img src="/images/IELTSQ/ieltsq.png" className="col" alt="alert" />
               </div>
               <div className="card-body mt-4">
                 <p className="card-text">IELTSQ helps IELTS English exam takers effectively prepare for the speaking section by providing recent speaking test topics monthly. Users can practice these recent asked speaking topics under the same time frame in the real IELTS exams and record themselves for review.</p>
-                <a href="https://apps.apple.com/au/app/ipecs-ucs-6/id1239680008" target="_blank" rel="noreferrer">
-                  <img src="/images/appstorebadge.png" alt="app store"/>
-                </a>
               </div>
             </div>
           </div>
