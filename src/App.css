@@ -9,14 +9,14 @@
 }
 
 .card img {
-  width: 156px;
+  width: 130px;
   max-width: 156px;;
   object-fit: contain;
 }
 
 #review {
   margin-top: 30px;
-  width: 468px;
+  width: 390px;
   min-width: 468px;
   object-fit: contain;
 }
