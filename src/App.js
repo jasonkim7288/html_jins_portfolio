@@ -21,7 +21,7 @@ function App() {
               </div>
               <div className="card-body mt-4">
                 <p className="card-text">Communic8 is an employee engagement platform built on Flutter. My role is developing a media library feature using a bunch of RESTful APIs. As a part of the work, I imported and worked on several open-source iOS plugins, and contributed to their codebase.</p>
-                <a href="https://apps.apple.com/au/app/communic8/id1438833452" target="_blank">
+                <a href="https://apps.apple.com/au/app/communic8/id1438833452" target="_blank" rel="noreferrer">
                   <img src="/images/appstorebadge.png" alt="app store"/>
                 </a>
               </div>
@@ -37,7 +37,7 @@ function App() {
               </div>
               <div className="card-body mt-4">
                 <p className="card-text">iPECS UCS is a collaboration application that provides presence, instant messaging, voice, and video calling capabilities. As a part of the team, I developed instant messaging, call features, and Core Data wrapper.</p>
-                <a href="https://apps.apple.com/au/app/ipecs-ucs-6/id1239680008" target="_blank">
+                <a href="https://apps.apple.com/au/app/ipecs-ucs-6/id1239680008" target="_blank" rel="noreferrer">
                   <img src="/images/appstorebadge.png" alt="app store"/>
                 </a>
               </div>
@@ -53,7 +53,7 @@ function App() {
               </div>
               <div className="card-body mt-4">
                 <p className="card-text">Line is a globally renowned social networking, mobile messenger app. Working in a contract role for 5 months, I developed the functionalities on the timeline tab.</p>
-                <a href="https://apps.apple.com/au/app/line/id443904275" target="_blank">
+                <a href="https://apps.apple.com/au/app/line/id443904275" target="_blank" rel="noreferrer">
                   <img src="/images/appstorebadge.png" alt="app store"/>
                 </a>
               </div>
@@ -78,7 +78,7 @@ function App() {
                 <p className="card-text">URL Album is designed for users to collect their bookmarks from the web and to visualize them through 3 different layout options.</p>
                 <p>Launched in Jan 2021, the app will grow to have more features such as file operations, search, and integration with 3rd party Open Graph service.</p>
                 <p>Technologies used: Swift, UIKit, Share extension, Core Data, App Groups, Cloud Kit</p>
-                <a href="https://apps.apple.com/app/id1548111446" target="_blank">
+                <a href="https://apps.apple.com/app/id1548111446" target="_blank" rel="noreferrer">
                   <img src="/images/appstorebadge.png" alt="app store"/>
                 </a>
               </div>
@@ -95,7 +95,7 @@ function App() {
               <div className="card-body mt-4">
                 <p className="card-text">A food app providing restaurant information about price, location, photos, reviews, and more. I experimented with building modern app layouts, Yelp Rest API, and some unit testings in this personal project.</p>
                 <p>Technologies used: Swift, UIKit, MapKit, Compositional Layout.</p>
-                <a href="https://apps.apple.com/au/app/ipecs-ucs-6/id1239680008" target="_blank">
+                <a href="https://apps.apple.com/au/app/ipecs-ucs-6/id1239680008" target="_blank" rel="noreferrer">
                   <img src="/images/appstorebadge.png" alt="app store"/>
                 </a>
               </div>
@@ -110,7 +110,7 @@ function App() {
               </div>
               <div className="card-body mt-4">
                 <p className="card-text">IELTSQ helps IELTS English exam takers effectively prepare for the speaking section by providing recent speaking test topics monthly. Users can practice these recent asked speaking topics under the same time frame in the real IELTS exams and record themselves for review.</p>
-                <a href="https://apps.apple.com/au/app/ipecs-ucs-6/id1239680008" target="_blank">
+                <a href="https://apps.apple.com/au/app/ipecs-ucs-6/id1239680008" target="_blank" rel="noreferrer">
                   <img src="/images/appstorebadge.png" alt="app store"/>
                 </a>
               </div>
