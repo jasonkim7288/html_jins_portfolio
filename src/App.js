@@ -1,10 +1,9 @@
-import logo from './images/iphone.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <img className="logo" src={logo} alt="logo"/>
+      <img className="logo" src="/images/iphone.jpg" alt="logo"/>
       <div className="container">
         <div className="row mt-5 mb-2 pt-5">
           <div className="col-3">
