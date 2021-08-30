@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <div className="row mt-5 mb-2 pt-5">
           <div className="col-3">
-            <img src="/images/Passport_KyungjinLee.jpg" alt="" className="photo-header"/>
+            <img src="http://placekitten.com/500/500" alt="" className="photo-header"/>
           </div>
           <div className="col-9">
             <h1 className="">
