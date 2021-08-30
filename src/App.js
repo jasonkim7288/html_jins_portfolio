@@ -6,9 +6,17 @@ function App() {
     <div className="App">
       <img className="logo" src={logo} alt="logo"/>
       <div className="container">
-        <h1 className="mb-5">
-          Hi, I'm Jin 👋🏼
-        </h1>
+        <div className="row mt-5 mb-2 pt-5">
+          <div className="col-3">
+            <img src="/images/Passport_KyungjinLee.jpg" alt="" className="photo-header"/>
+          </div>
+          <div className="col-9">
+            <h1 className="">
+              Hi, I'm Jin 👋🏼
+            </h1>
+            <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec vulputate turpis. Aliquam ex mauris, posuere ut mi non, volutpat mattis ex. Etiam convallis, nulla quis efficitur lobortis, dolor enim scelerisque leo, sed aliquam sapien purus vel dolor. Duis venenatis risus sit amet quam feugiat laoreet non vel turpis. Nullam suscipit blandit posuere.</p>
+          </div>
+        </div>
         <h2 className="text-center pt-5 mb-4">Commercial Projects</h2>
         <div className="row row-cols-1 row-cols-md-1 g-5">
           <div className="col">
@@ -112,6 +120,36 @@ function App() {
           </div>
         </div>
       </div>
+
+      <footer>
+        <div className="container">
+          <div className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              </a>
+              <span class="text-muted">2021 Jin Lee</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="text-muted footer-icon" href="https://www.linkedin.com/in/jinthislife" target="_blank" rel="noreferrer">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-muted footer-icon" href="https://github.com/jinthislife" target="_blank" rel="noreferrer">
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-muted footer-icon" href="mailto:reyaong@gmail.com" target="_blank" rel="noreferrer">
+                  <i class="far fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

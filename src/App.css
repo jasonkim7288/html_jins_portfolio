@@ -4,6 +4,12 @@
   height: 250px;
 }
 
+.photo-header {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .card {
   border: none;
 }
@@ -19,4 +25,16 @@
   width: 390px;
   min-width: 390px;
   object-fit: contain;
+}
+
+footer {
+  background-color: #e6e6e6;
+}
+
+.footer-icon {
+  font-size: 30px;
+}
+
+i:hover {
+  color: black;
 }
