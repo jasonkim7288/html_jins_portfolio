@@ -13,7 +13,7 @@ function App() {
             <h1 className="">
               Hi, I'm Jin 👋🏼
             </h1>
-            <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec vulputate turpis. Aliquam ex mauris, posuere ut mi non, volutpat mattis ex. Etiam convallis, nulla quis efficitur lobortis, dolor enim scelerisque leo, sed aliquam sapien purus vel dolor. Duis venenatis risus sit amet quam feugiat laoreet non vel turpis. Nullam suscipit blandit posuere.</p>
+            <p className="mb-4">I am a motivated iOS Developer. I love the challenge of creating applications from scratch as much as I enjoy adding a cool new feature to a current app. I like that every project I work on brings the opportunity to learn something new.</p>
           </div>
         </div>
         <h2 className="text-center pt-5 mb-4">Commercial Projects</h2>
